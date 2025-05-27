@@ -1,0 +1,26 @@
+<body>
+  <section class="form-login">
+    <form #validarForm="ngForm" (ngSubmit) ="validar(validarForm)">
+      <h1 class="text-5xl text-white">Iniciar Sesión</h1>
+      <br>
+      <label class="text-lg w-24 text-white">DNI: </label>
+      <div>
+        <input type="text" class="data" name="dni" ngModel>
+      </div>
+
+      <label class="text-lg text-white">Contraseña</label>
+      <div>
+        <input type="password" class="data" name="contrasena" ngModel>
+      </div>
+
+      <div>
+        <button class="boton">Ingresar</button>
+        <button (click)="redireccionar()" class="boton" >Crear un cuenta</button>
+      </div>
+      <img src="assets/images/logito.jpg " class="ima">
+    </form>
+  </section>
+</body>
+
+
+

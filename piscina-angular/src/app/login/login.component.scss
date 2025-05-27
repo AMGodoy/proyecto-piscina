@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.form-login{
+  width: 600px;
+  height: 370px;
+  background: indianred;
+  margin: auto;
+  margin-top: 180px;
+  box-shadow: 7px 13px 37px #000;
+  padding: 20px 30px;
+  border-top: 4px solid crimson ;
+}
+.data{
+  width: 300px;
+  border: 1px solid #017bab;
+  margin-bottom: 15px;
+  padding: 3px 10px;
+
+  color: white;
+}
+.boton{
+  width: 300px;
+  height: 40px;
+  border: none;
+  background: #017bab;
+  color: white;
+  margin-bottom: 12px;
+}
+.ima{
+  width: 250px;
+  padding: 3px 10px;
+  margin: 310px;
+  margin-top: -196px;
+  border: 1px #017bab;
+}
+
+
